@@ -1,0 +1,72 @@
+{
+  "mode": "demo",
+  "as_of_date": "2025-12-30",
+  "risk_status": "OK",
+  "gross_exposure": 0.2464,
+  "net_exposure": 0.1616,
+  "latest_prices": {
+    "BTC": 13773.4625,
+    "ETH": 112.1164,
+    "SOL": 20.1498,
+    "PAXG": 1279.6325,
+    "LINK": 3.341
+  },
+  "target_weights": {
+    "BTC": 0.012,
+    "ETH": -0.0089,
+    "SOL": -0.0335,
+    "PAXG": 0.1709,
+    "LINK": 0.0212
+  },
+  "full_metrics": {
+    "label": "Full Active Period",
+    "start_date": "2023-04-02",
+    "end_date": "2025-12-30",
+    "days": 1004,
+    "total_return": 0.029227232579482898,
+    "cagr": 0.010528157895203893,
+    "annual_vol": 0.0438909092732554,
+    "sharpe": 0.26053790970678786,
+    "sortino": 0.3805258196897453,
+    "max_drawdown": -0.07956986680519107,
+    "calmar": 0.13231337839209562,
+    "win_rate": 0.49701195219123506,
+    "worst_day": -0.00817874157243531,
+    "avg_daily_turnover": 0.04234040305649001,
+    "total_cost_drag": 0.04250976466871598
+  },
+  "in_sample_metrics": {
+    "label": "In-Sample (70%)",
+    "start_date": "2023-04-02",
+    "end_date": "2025-03-03",
+    "days": 702,
+    "total_return": -0.0008109062071632867,
+    "cagr": -0.0004217071204348777,
+    "annual_vol": 0.0425811069418527,
+    "sharpe": 0.011347030128358889,
+    "sortino": 0.016457111680198786,
+    "max_drawdown": -0.07956986680519107,
+    "calmar": -0.0052998344394283425,
+    "win_rate": 0.4886039886039886,
+    "worst_day": -0.00817874157243531,
+    "avg_daily_turnover": 0.04362604289017983,
+    "total_cost_drag": 0.03062548210890624
+  },
+  "out_of_sample_metrics": {
+    "label": "Out-of-Sample (30%)",
+    "start_date": "2025-03-04",
+    "end_date": "2025-12-30",
+    "days": 302,
+    "total_return": 0.030062516668016848,
+    "cagr": 0.03644687537154323,
+    "annual_vol": 0.046840564719909064,
+    "sharpe": 0.7876374767201142,
+    "sortino": 1.1674763659132845,
+    "max_drawdown": -0.041061072996210646,
+    "calmar": 0.8876259851978724,
+    "win_rate": 0.5165562913907285,
+    "worst_day": -0.007832841633552513,
+    "avg_daily_turnover": 0.0393519290059925,
+    "total_cost_drag": 0.011884282559809735
+  }
+}
