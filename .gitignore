@@ -1,0 +1,20 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments & secrets
+.venv/
+venv/
+.env
+.env.*
+
+# Local SQLite databases (keep repo clean; commit Markdown/JSON tearsheets & CSV ledger)
+data/*.sqlite
+data/*.db
+
+# OS / IDE artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
